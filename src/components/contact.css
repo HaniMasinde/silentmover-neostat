@@ -1,0 +1,10 @@
+/* Social media icon colors for contact component */
+.social-links a svg {
+    font-size: 2rem;
+    margin: 0 0.5rem;
+}
+
+/* Facebook - Blue */
+.social-links a svg {
+    color: #fff;
+}
