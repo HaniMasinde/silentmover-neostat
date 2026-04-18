@@ -1,8 +1,6 @@
 
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faWhatsapp, faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { FaEnvelope, FaFacebook, FaInstagram, FaLinkedin, FaPhoneAlt, FaWhatsapp } from 'react-icons/fa';
 
 import { Link } from 'react-router-dom';
 import './footer.css'
@@ -40,12 +38,13 @@ function Footer(){
                 <div className="contact">
                 <div className="all-links">
                     <div className="social">
-                    <a href="" className='Fb'><FontAwesomeIcon icon={faFacebook} /></a>
-                    <a href=""className='Wh'><FontAwesomeIcon icon={faWhatsapp} /></a>
+                    <a href="" className='Fb'><FaFacebook /></a>
+                    <a href="" className='Ins'><FaInstagram/></a>
+                    <a href=""className='Wh'><FaWhatsapp /></a>
                 </div>
                 <div className="other-links-1">
-                    <a href=""className='Li'><FontAwesomeIcon icon={faLinkedin} /></a>
-                    <a href="" className='En'><FontAwesomeIcon icon={faEnvelope} /></a>
+                    <a href=""className='Li'><FaLinkedin /></a>
+                    <a href="" className='En'><FaEnvelope/></a>
                     </div>
                 </div>
                 <div className="other-links">
@@ -64,9 +63,9 @@ function Footer(){
                 <div className="dev">
                     <p>Designed and Developed by:<b>Haningtone Omondi</b></p>
                     <div className="my-links">
-                    <a href="https//wa.me/254794358892?text=Hello%20dev%20Haningtone"><FontAwesomeIcon icon={faWhatsapp} /></a>
-                    <a href=""><FontAwesomeIcon icon={faPhone} /></a>
-                    <a href="https//facebook.com/profile.php?id=61557081552035" className='fb'><FontAwesomeIcon icon={faFacebook} /></a>
+                    <a href=""><FaWhatsapp/></a>
+                    <a href=""><FaPhoneAlt/></a>
+                    <a href=""className='fb'><FaFacebook /></a>
                 </div>
                 </div>
             </div>

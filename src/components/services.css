@@ -1,5 +1,5 @@
 .servic{
-    background:rgba(0, 0, 0, 0.755);
+    background:transaprent;
     color:#fff;
 }
 .servic h2{
@@ -67,7 +67,7 @@ section h2{
         justify-content:center;
     }
     .Image{
-        height:35vh;
+        height:32vh;
         width:50vw;
     }
     .vision h3,.mission h3,.values h3,.assurance h3,.team h3,.commitment h3{

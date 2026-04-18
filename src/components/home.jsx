@@ -6,14 +6,18 @@ import Neosta from '../assets/blacklab.jpg'
 import './home.css'
 import Footer from './footer'
 import { Link } from 'react-router-dom'
+import { FaSun } from 'react-icons/fa'
 function Home(){
     return(
     <>
+    <div className="modes">
+        <FaSun/>
+    </div>
     <div className='home'>
         <section>
             <nav>
         <ul>
-            <li><Link to="/">Home</Link></li>
+            <li className='h'><Link to="/">Home</Link></li>
             <li> <Link to="/Services">Services</Link> </li>
             <li><Link to="/About">About</Link></li>
             <li><Link to="/Contact">Contact</Link></li>
@@ -38,9 +42,7 @@ function Home(){
         </p>
         </section>
         <div className="Image-container">
-            <div className="image">
                 <img src={Neosta} alt="" />
-            </div>
         </div>
     </div>
     <Footer/>

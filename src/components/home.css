@@ -4,6 +4,17 @@
     padding:0;
     box-sizing: border-box;
 }
+.modes{
+    position:absolute;
+    right:1rem;
+    top:1rem;
+    width:fit-content;
+
+}
+.modes svg{
+    font-size:2rem;
+    cursor:pointer;
+}
 .home{
     display:flex;
     justify-content:space-between;
@@ -23,7 +34,14 @@ ul li a{
     font-size:1.4rem;
     text-decoration:none;
     font-weight:600;
-    color:lime;
+    color:#fff;
+    transition:400ms;
+}
+ul li a:hover,ul li.h{
+    background:lime;
+    padding:4.6px;
+    border-radius:10px;
+
 }
 .logo-container{
     display:flex;
@@ -63,15 +81,10 @@ p{
     justify-content:center;
     margin:0;
     padding-top:10px;
-    border:3px solid lime;
-    box-shadow: 0 -7px 10px lime;
-    border-bottom:none;
-    border-right:none;
 }
-.Image-container .image img{
-    height:800px;
+.Image-container img{
+    height:950px;
     width:1000px;
-    border-radius:50% 0 0
 }
 .image1{display:none;}
 
@@ -83,10 +96,18 @@ p{
     .Image-container{
         height:66vh;
         width:80vw;
+        padding-left:3vw;
     }
-    .Image-container .image img{width:380px;margin-left:1rem;}
+    .Image-container img{width:90vw;margin-left:1rem;
+    }
 }
 @media (max-width:800px){
+    .modes{
+        left:1rem;
+    }
+    .modes svg{
+        font-size:1.5rem;
+    }
     nav ul{
         gap:2.5rem;
     }
@@ -102,14 +123,15 @@ p{
     }
     .image1{
         display:block;
-        height:40vh;
+        height:45vh;
         display:flex;
         justify-content:center;
         overflow:hidden;
     }
     .image1 img{
         height:700px;
-        width:400px;
+        width:600px;
+        margin-top:-2rem;
     }
     .Image-container{
         display:none;
