@@ -63,9 +63,9 @@ function Footer(){
                 <div className="dev">
                     <p>Designed and Developed by:<b>Haningtone Omondi</b></p>
                     <div className="my-links">
-                    <a href=""><FaWhatsapp/></a>
-                    <a href=""><FaPhoneAlt/></a>
-                    <a href=""className='fb'><FaFacebook /></a>
+                    <a href="https://wa.me/254794358892?text=Hello%20dev%20Haningtone"><FaWhatsapp/></a>
+                    <a href="tel:254113745958"><FaPhoneAlt/></a>
+                    <a href="https://facebook.com/profile.php?id=61557081552035"className='fb'><FaFacebook /></a>
                 </div>
                 </div>
             </div>
